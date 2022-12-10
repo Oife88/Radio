@@ -12,7 +12,7 @@ public class Radio {
         if (currentStationNumber < 0) {
             return;
         }
-        if (currentStationNumber >9) {
+        if (currentStationNumber > 9) {
             return;
         }
         this.currentStationNumber = currentStationNumber;
@@ -32,5 +32,38 @@ public class Radio {
 
         this.currentVolume = currentVolume;
     }
+
+    public void next() {
+        if (currentStationNumber != 9) {
+            currentStationNumber++;
+        } else {
+            currentStationNumber = 0;
+        }
+    }
+
+    public void prev() {
+        if (currentStationNumber != 0) {
+            currentStationNumber++;
+        } else {
+            currentStationNumber = 9;
+        }
+    }
+
+    public void plus() {
+        if (currentVolume < 10) {
+            currentVolume = currentVolume + 1;
+        } else {
+            return;
+        }
+    }
+
+    public void minus() {
+        if (currentVolume  > 0) {
+            currentVolume = currentVolume - 1;
+        } else {
+            return;
+        }
+    }
 }
+
 
