@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="RadioTest" time="0.048" tests="16" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="RadioTest" time="0.052" tests="16" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Users\colnc\.jdks\corretto-11.0.17\bin"/>
-    <property name="sun.java.command" value="C:\Users\colnc\AppData\Local\Temp\surefire8954693364836925959\surefirebooter2429047251963382647.jar C:\Users\colnc\AppData\Local\Temp\surefire8954693364836925959 2022-12-10T15-58-05_644-jvmRun1 surefire16961965729896813025tmp surefire_01796325028219463244tmp"/>
+    <property name="sun.java.command" value="C:\Users\colnc\AppData\Local\Temp\surefire313712453388528287\surefirebooter9737671080829153494.jar C:\Users\colnc\AppData\Local\Temp\surefire313712453388528287 2022-12-11T14-31-40_374-jvmRun1 surefire7962905380525729176tmp surefire_08323452762849606824tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\colnc\IdeaProjects\Radio\target\test-classes;C:\Users\colnc\IdeaProjects\Radio\target\classes;C:\Users\colnc\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0\junit-jupiter-5.7.0.jar;C:\Users\colnc\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\colnc\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\colnc\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\colnc\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\colnc\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\colnc\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\colnc\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\colnc\AppData\Local\Temp\surefire8954693364836925959\surefirebooter2429047251963382647.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\colnc\AppData\Local\Temp\surefire313712453388528287\surefirebooter9737671080829153494.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.17+8-LTS"/>
@@ -64,17 +64,17 @@
   <testcase name="limitValuNumber" classname="RadioTest" time="0.028"/>
   <testcase name="limitValutNumber" classname="RadioTest" time="0"/>
   <testcase name="withTheBordersNumbers" classname="RadioTest" time="0"/>
-  <testcase name="moreThanMaxNumbers" classname="RadioTest" time="0"/>
+  <testcase name="moreThanMaxNumbers" classname="RadioTest" time="0.001"/>
   <testcase name="belowLimitVolume" classname="RadioTest" time="0.001"/>
   <testcase name="switchingMoPrevBoundaryNumber" classname="RadioTest" time="0"/>
-  <testcase name="switchingPlusGRBoundaryVolume" classname="RadioTest" time="0.001"/>
+  <testcase name="switchingPlusGRBoundaryVolume" classname="RadioTest" time="0"/>
   <testcase name="switchingMinBoundaryVolume" classname="RadioTest" time="0"/>
   <testcase name="belowLimitValueNumber" classname="RadioTest" time="0"/>
-  <testcase name="switchingMPrevBoundaryNumber" classname="RadioTest" time="0"/>
-  <testcase name="switchingBoundaryNumber" classname="RadioTest" time="0.002"/>
+  <testcase name="switchingMPrevBoundaryNumber" classname="RadioTest" time="0.001"/>
+  <testcase name="switchingBoundaryNumber" classname="RadioTest" time="0.001"/>
   <testcase name="belowLimitMaxVolume" classname="RadioTest" time="0.001"/>
-  <testcase name="switchingMinGrBoundaryVolume" classname="RadioTest" time="0"/>
+  <testcase name="switchingMinGrBoundaryVolume" classname="RadioTest" time="0.001"/>
   <testcase name="switchingPlusBoundaryVolume" classname="RadioTest" time="0"/>
-  <testcase name="switchingMBoundaryNumber" classname="RadioTest" time="0"/>
-  <testcase name="switchingMoreBoundaryNumber" classname="RadioTest" time="0"/>
+  <testcase name="switchingMBoundaryNumber" classname="RadioTest" time="0.002"/>
+  <testcase name="switchingMoreBoundaryNumber" classname="RadioTest" time="0.001"/>
 </testsuite>
